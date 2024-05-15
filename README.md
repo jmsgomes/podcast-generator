@@ -46,10 +46,10 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4.1.5
       - name: Run Feed Generator
-        uses: actions/jmsgomes-podcast-generator@v1.0
+        uses: actions/jmsgomes-podcast-generator@v0.1-alpha
 ```
 
-or
+Alternatively, to use the latest non-release version (from `main`):
 
 ```yaml
 name: Generate Feed
